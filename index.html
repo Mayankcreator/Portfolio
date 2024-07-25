@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MayankCreator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <img src="creatorlogo.png" alt="">
+                </div>
+                <input type="checkbox" name="menu" id="menu">
+                <div class="btn_one">
+                    <label for="menu" class="bars">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                </div>
+                <div class="sidebar">
+                    <div class="btn_two">
+                        <label for="menu" class="bars">
+                            <label for="menu" class="bars">
+                                <i class="fa-solid fa-xmark" style= "color: white"></i>
+                            </label>
+                        </label>
+                    </div>
+                    <ul class="menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Latest</a></li>
+                        <li><a href="#">Category</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search here...">
+                        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    </div>
+                    <div class="socialmedia">
+                        <a href="https://www.youtube.com/mayankcreator12345"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/_creator_0_"><i class="fa-brands fa-instagram" style="font-weight: bolder;"></i></a>
+                        <a href="https://www.linkedin.com/in/mayank-kesharwani-b8b9931b7"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-solid fa-gamepad"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="content">
+            <div class="text-content">
+                <div class="text">Hello, It's Me</div>
+                <div class="name">Mayank Creator</div>
+                <div class="job">
+                    <span>And, I'm a</span>
+                    <span class="typing-text"></span>
+                </div>
+            </div>
+            <div class="btn">
+                <button class="about"><a href="http://localhost:3000/about">About Me</a></button>
+                <button><a href="">Follow Me</a></button>
+            </div>
+        </div>
+        <div class="social-media">
+            <a href="https://www.youtube.com/mayankcreator12345"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/_creator_0_"><i class="fa-brands fa-instagram" style="font-weight: bolder;"></i></a>
+            <a href="https://www.linkedin.com/in/mayank-kesharwani-b8b9931b7"><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-solid fa-gamepad"></i></a>
+        </div>
+    </header>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".typing-text", {
+          strings: ["Engineer", "Youtuber", "Gamer"],
+          typeSpeed: 130,
+          backSpeed: 80,
+          loop: true
+        })
+    </script>
+</body>
+</html>
